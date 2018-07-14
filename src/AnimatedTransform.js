@@ -55,7 +55,7 @@ class AnimatedTransform extends AnimatedWithChildren {
     this._transforms.forEach(transform => {
       for (var key in transform) {
         var value = transform[key];
-        if (value instanceof Animated) {
+        if('__addChild' in value) {
           value.__addChild(this);
         }
       }
