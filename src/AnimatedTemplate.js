@@ -23,7 +23,7 @@ class AnimatedTemplate extends AnimatedWithChildren {
   }
 
   __transformValue(value): any {
-    if (value instanceof Animated) {
+    if ('__getValue' in value) {
       return value.__getValue();
     } else {
       return value;
@@ -40,7 +40,7 @@ class AnimatedTemplate extends AnimatedWithChildren {
 
   __attach(): void {
     for (var i = 0; i < this._values.length; ++i) {
-      if (this._values[i] instanceof Animated) {
+      if ('__addChild' in this._values[i]) {
         this._values[i].__addChild(this);
       }
     }
@@ -48,7 +48,7 @@ class AnimatedTemplate extends AnimatedWithChildren {
 
   __detach(): void {
     for (var i = 0; i < this._values.length; ++i) {
-      if (this._values[i] instanceof Animated) {
+      if ('__removeChild' in this._values[i]) {
         this._values[i].__removeChild(this);
       }
     }

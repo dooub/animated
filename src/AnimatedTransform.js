@@ -25,7 +25,7 @@ class AnimatedTransform extends AnimatedWithChildren {
       var result = {};
       for (var key in transform) {
         var value = transform[key];
-        if (value instanceof Animated) {
+        if ('__getValue' in value) {
           result[key] = value.__getValue();
         } else {
           result[key] = value;
@@ -40,7 +40,7 @@ class AnimatedTransform extends AnimatedWithChildren {
       var result = {};
       for (var key in transform) {
         var value = transform[key];
-        if (value instanceof Animated) {
+        if ('__getAnimatedValue' in value) {
           result[key] = value.__getAnimatedValue();
         } else {
           // All transform components needed to recompose matrix
@@ -66,7 +66,7 @@ class AnimatedTransform extends AnimatedWithChildren {
     this._transforms.forEach(transform => {
       for (var key in transform) {
         var value = transform[key];
-        if (value instanceof Animated) {
+        if ('__removeChild' in value) {
           value.__removeChild(this);
         }
       }
