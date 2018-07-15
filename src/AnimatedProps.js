@@ -36,7 +36,7 @@ class AnimatedProps extends Animated {
     var props = {};
     for (var key in this._props) {
       var value = this._props[key];
-      if (value && '__getValue' in value) {
+      if (typeof value === 'object' && '__getValue' in value) {
         props[key] = value.__getValue();
       } else {
         props[key] = value;
@@ -49,7 +49,7 @@ class AnimatedProps extends Animated {
     var props = {};
     for (var key in this._props) {
       var value = this._props[key];
-      if (value && '__getAnimatedValue' in value) {
+      if (typeof value === 'object' && '__getAnimatedValue' in value) {
         props[key] = value.__getAnimatedValue();
       }
     }
@@ -59,7 +59,7 @@ class AnimatedProps extends Animated {
   __attach(): void {
     for (var key in this._props) {
       var value = this._props[key];
-      if (value && '__addChild' in value) {
+      if (typeof value === 'object' && '__addChild' in value) {
         value.__addChild(this);
       }
     }
@@ -68,7 +68,7 @@ class AnimatedProps extends Animated {
   __detach(): void {
     for (var key in this._props) {
       var value = this._props[key];
-      if (value && '__removeChild' in value) {
+      if (typeof value === 'object' && '__removeChild' in value) {
         value.__removeChild(this);
       }
     }

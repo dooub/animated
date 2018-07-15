@@ -33,7 +33,7 @@ class AnimatedStyle extends AnimatedWithChildren {
     var style = {};
     for (var key in this._style) {
       var value = this._style[key];
-      if (value && '__getValue' in value) {
+      if (typeof value === 'object' && '__getValue' in value) {
         style[key] = value.__getValue();
       } else {
         style[key] = value;
@@ -46,7 +46,7 @@ class AnimatedStyle extends AnimatedWithChildren {
     var style = {};
     for (var key in this._style) {
       var value = this._style[key];
-      if (value && '__getAnimatedValue' in value) {
+      if (typeof value === 'object' && '__getAnimatedValue' in value) {
         style[key] = value.__getAnimatedValue();
       }
     }
@@ -56,7 +56,7 @@ class AnimatedStyle extends AnimatedWithChildren {
   __attach(): void {
     for (var key in this._style) {
       var value = this._style[key];
-      if (value && '__addChild' in value) {
+      if (typeof value === 'object' && '__addChild' in value) {
         value.__addChild(this);
       }
     }
@@ -65,7 +65,7 @@ class AnimatedStyle extends AnimatedWithChildren {
   __detach(): void {
     for (var key in this._style) {
       var value = this._style[key];
-      if (value && '__removeChild' in value) {
+      if (typeof value === 'object' && '__removeChild' in value) {
         value.__removeChild(this);
       }
     }
