@@ -5,12 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/AnimatedProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AnimatedProps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/AnimatedStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AnimatedStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AnimatedTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AnimatedTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AnimatedTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AnimatedTransform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimatedProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedProps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimatedStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimatedTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimatedTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedTransform.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,12 +48,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="383" />
+          <entry key="js" value="419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="383" />
+          <entry key="JavaScript" value="419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -86,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnimatedProps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="306">
+              <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -128,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnimatedTransform.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            <state relative-caret-position="462">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -146,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnimatedStyle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="497">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -159,7 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setNativeProps</find>
       <find>ApplyAnimatedValues.inj</find>
       <find>inject</find>
       <find>console.</find>
@@ -189,6 +184,7 @@
       <find>console</find>
       <find>[i]</find>
       <find>instanceof</find>
+      <find>in</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -200,10 +196,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AnimatedStyle.js" />
         <option value="$PROJECT_DIR$/src/createAnimatedComponent.js" />
         <option value="$PROJECT_DIR$/src/Interpolation.js" />
         <option value="$PROJECT_DIR$/src/AnimatedTransform.js" />
+        <option value="$PROJECT_DIR$/src/AnimatedProps.js" />
+        <option value="$PROJECT_DIR$/src/AnimatedStyle.js" />
       </list>
     </option>
   </component>
@@ -267,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="interpolat&#9;FILE&#9;file:///Project/freestyle/client/animated/src/Interpolation.js&#10;animatedtrans&#9;FILE&#9;file:///Project/freestyle/client/animated/src/AnimatedTransform.js&#10;animatedtransfo&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="animatedstyl&#9;FILE&#9;file:///Project/freestyle/client/animated/src/AnimatedStyle.js&#10;interpolat&#9;FILE&#9;file:///Project/freestyle/client/animated/src/Interpolation.js&#10;animatedtrans&#9;FILE&#9;file:///Project/freestyle/client/animated/src/AnimatedTransform.js&#10;animatedtransfo&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -304,17 +301,18 @@
       <workItem from="1531515800848" duration="8217000" />
       <workItem from="1531526666012" duration="178000" />
       <workItem from="1531527076195" duration="648000" />
-      <workItem from="1531612630281" duration="543000" />
+      <workItem from="1531612630281" duration="1586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9586000" />
+    <option name="totallyTimeSpent" value="10629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1921" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -328,7 +326,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30042464" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30042464" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimatedProps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AnimatedValue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -447,17 +438,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimatedStyle.js">
+    <entry file="file://$PROJECT_DIR$/src/AnimatedTransform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="462">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimatedTransform.js">
+    <entry file="file://$PROJECT_DIR$/src/AnimatedProps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        <state relative-caret-position="306">
+          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimatedStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
